@@ -1,0 +1,9 @@
+diff -Naur eps2ps/eps2ps eps2ps-p/eps2ps
+--- eps2ps/eps2ps	Fri Feb  1 19:37:50 2002
++++ eps2ps-p/eps2ps	Fri Feb  1 19:38:03 2002
+@@ -1,4 +1,4 @@
+-#!/home/gaboret/MYBIN/perl
++#!/usr/bin/perl
+ use Getopt::Std;
+ getopts('s:f:rh');
+ $scale = 1;
