@@ -4,7 +4,7 @@ Summary(pl):	konwertuje pliki .eps do Postscriptu (.ps)
 Name:		eps2ps
 Version:	1.0
 Release:	2
-License:	public domain
+License:	Public Domain
 Group:		Applications/Publishing
 Source0:	http://geoscope.ipgp.jussieu.fr/~gaboret/%{name}
 Patch0:		%{name}-perl-path.patch
