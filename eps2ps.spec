@@ -25,14 +25,14 @@ eps2ps konwertuje format plików EPS do Postscriptu (.ps).
 %prep
 %setup -q -c -T
 install %{SOURCE0} .
-patch -p1 < %{PATCH0}
+%patch0 -p1
 
 %build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install %{name} $RPM_BUILD_ROOT%{_bindir}
 
 %clean
