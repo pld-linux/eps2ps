@@ -13,6 +13,7 @@ Group(pt_BR):	Aplicações/Editoração
 Source0:	http://geoscope.ipgp.jussieu.fr/~gaboret/%{name}
 Patch0:		%{name}-perl-path.patch
 URL:		http://geoscope.ipgp.jussieu.fr/~gaboret/liens.html
+BuildRequires:	perl-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
