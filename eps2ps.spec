@@ -3,8 +3,8 @@ Summary:	converts Encapsulated Postscript (*.eps) files to Postscript (.ps)
 Summary(pl):	konwertuje pliki .eps do Postscriptu (.ps)
 Name:		eps2ps
 Version:	1.0
-Release:	1
-License:	GPL
+Release:	2
+License:	public domain
 Group:		Applications/Publishing
 Group(de):	Applikationen/Publizieren
 Group(es):	Aplicaciones/Editoración
@@ -12,6 +12,7 @@ Group(pl):	Aplikacje/Publikowanie
 Group(pt_BR):	Aplicações/Editoração
 Source0:	http://geoscope.ipgp.jussieu.fr/~gaboret/%{name}
 Patch0:		%{name}-perl-path.patch
+Patch1:		%{name}-no-author.patch
 URL:		http://geoscope.ipgp.jussieu.fr/~gaboret/liens.html
 BuildRequires:	perl-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -27,6 +28,7 @@ eps2ps konwertuje format plików EPS do Postscriptu (.ps).
 %setup -q -c -T
 install %{SOURCE0} .
 %patch0 -p1
+%patch1 -p1
 
 %build
 
