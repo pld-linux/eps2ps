@@ -7,6 +7,7 @@ Release:	2
 License:	Public Domain
 Group:		Applications/Publishing
 Source0:	http://geoscope.ipgp.jussieu.fr/~gaboret/%{name}
+# Source0-md5:	b5bda8a611635f3813f51c4d86669c07
 Patch0:		%{name}-perl-path.patch
 Patch1:		%{name}-no-author.patch
 URL:		http://geoscope.ipgp.jussieu.fr/~gaboret/liens.html
