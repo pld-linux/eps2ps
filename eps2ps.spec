@@ -6,10 +6,6 @@ Version:	1.0
 Release:	2
 License:	public domain
 Group:		Applications/Publishing
-Group(de):	Applikationen/Publizieren
-Group(es):	Aplicaciones/Editoración
-Group(pl):	Aplikacje/Publikowanie
-Group(pt_BR):	Aplicações/Editoração
 Source0:	http://geoscope.ipgp.jussieu.fr/~gaboret/%{name}
 Patch0:		%{name}-perl-path.patch
 Patch1:		%{name}-no-author.patch
