@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Converts Encapsulated Postscript (*.eps) files to Postscript (.ps)
-Summary(pl.UTF-8):   Konwertuje pliki .eps do Postscriptu (.ps)
+Summary(pl.UTF-8):	Konwertuje pliki .eps do Postscriptu (.ps)
 Name:		eps2ps
 Version:	1.0
 Release:	2
